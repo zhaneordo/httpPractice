@@ -114,20 +114,11 @@
 		71448D9C27AF091C00EEE743 /* httpPractice */ = {
 			isa = PBXGroup;
 			children = (
+				71448DDB27B04FAC00EEE743 /* NetworkLayer */,
 				71448D9D27AF091C00EEE743 /* httpPracticeApp.swift */,
 				71448D9F27AF091C00EEE743 /* ContentView.swift */,
-				71448DC727AF09BB00EEE743 /* HTTPMethod.swift */,
-				71448DC927AF0BDE00EEE743 /* HTTPRequest.swift */,
-				71448DCB27AF0D6600EEE743 /* HTTPResponse.swift */,
-				71448DCD27AF0E2500EEE743 /* HTTPStatus.swift */,
-				71448DCF27AF0F6C00EEE743 /* HTTPResult.swift */,
-				71448DD127B03F6E00EEE743 /* HTTPBody.swift */,
 				71448DA127AF092400EEE743 /* Assets.xcassets */,
 				71448DA327AF092400EEE743 /* Preview Content */,
-				71448DD327B0438400EEE743 /* EmptyBody.swift */,
-				71448DD527B043F700EEE743 /* DataBody.swift */,
-				71448DD727B046C900EEE743 /* JSONBody.swift */,
-				71448DD927B0492300EEE743 /* FormBody.swift */,
 			);
 			path = httpPractice;
 			sourceTree = "<group>";
@@ -155,6 +146,39 @@
 				71448DBA27AF092500EEE743 /* httpPracticeUITestsLaunchTests.swift */,
 			);
 			path = httpPracticeUITests;
+			sourceTree = "<group>";
+		};
+		71448DDB27B04FAC00EEE743 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				71448DDC27B04FD500EEE743 /* Body */,
+				71448DC727AF09BB00EEE743 /* HTTPMethod.swift */,
+				71448DC927AF0BDE00EEE743 /* HTTPRequest.swift */,
+				71448DCB27AF0D6600EEE743 /* HTTPResponse.swift */,
+				71448DCD27AF0E2500EEE743 /* HTTPStatus.swift */,
+				71448DCF27AF0F6C00EEE743 /* HTTPResult.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		71448DDC27B04FD500EEE743 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				71448DDD27B04FEF00EEE743 /* Interface */,
+				71448DD327B0438400EEE743 /* EmptyBody.swift */,
+				71448DD527B043F700EEE743 /* DataBody.swift */,
+				71448DD727B046C900EEE743 /* JSONBody.swift */,
+				71448DD927B0492300EEE743 /* FormBody.swift */,
+			);
+			path = Body;
+			sourceTree = "<group>";
+		};
+		71448DDD27B04FEF00EEE743 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				71448DD127B03F6E00EEE743 /* HTTPBody.swift */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
