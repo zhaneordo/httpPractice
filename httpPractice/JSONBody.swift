@@ -15,6 +15,7 @@ public struct JSONBody: HTTPBody {
 
     private let _encode: () throws -> Data // what does "_" before encode do?
     // found here: https://github.com/andrija-ostojic/Swift-Network-Layer/blob/aac2a7b7c7dd0dd023c645eb3b029efc1f569e4c/Network%20Layer%20Example/Network%20Layer%20Example/NetworkLayer/Body/JSONBody.swift#L17
+    // answer: https://stackoverflow.com/a/24215191
 
     public init<T: Encodable>(_ value: T, encoder: JSONEncoder = JSONEncoder()) {
         self._encode = { try encoder.encode(value) }
