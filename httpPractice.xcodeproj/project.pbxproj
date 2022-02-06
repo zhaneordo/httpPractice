@@ -19,6 +19,11 @@
 		71448DCC27AF0D6600EEE743 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DCB27AF0D6600EEE743 /* HTTPResponse.swift */; };
 		71448DCE27AF0E2500EEE743 /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DCD27AF0E2500EEE743 /* HTTPStatus.swift */; };
 		71448DD027AF0F6C00EEE743 /* HTTPResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DCF27AF0F6C00EEE743 /* HTTPResult.swift */; };
+		71448DD227B03F6E00EEE743 /* HTTPBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DD127B03F6E00EEE743 /* HTTPBody.swift */; };
+		71448DD427B0438400EEE743 /* EmptyBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DD327B0438400EEE743 /* EmptyBody.swift */; };
+		71448DD627B043F700EEE743 /* DataBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DD527B043F700EEE743 /* DataBody.swift */; };
+		71448DD827B046C900EEE743 /* JSONBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DD727B046C900EEE743 /* JSONBody.swift */; };
+		71448DDA27B0492300EEE743 /* FormBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71448DD927B0492300EEE743 /* FormBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,11 @@
 		71448DCB27AF0D6600EEE743 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
 		71448DCD27AF0E2500EEE743 /* HTTPStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatus.swift; sourceTree = "<group>"; };
 		71448DCF27AF0F6C00EEE743 /* HTTPResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResult.swift; sourceTree = "<group>"; };
+		71448DD127B03F6E00EEE743 /* HTTPBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBody.swift; sourceTree = "<group>"; };
+		71448DD327B0438400EEE743 /* EmptyBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBody.swift; sourceTree = "<group>"; };
+		71448DD527B043F700EEE743 /* DataBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBody.swift; sourceTree = "<group>"; };
+		71448DD727B046C900EEE743 /* JSONBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONBody.swift; sourceTree = "<group>"; };
+		71448DD927B0492300EEE743 /* FormBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +120,14 @@
 				71448DC927AF0BDE00EEE743 /* HTTPRequest.swift */,
 				71448DCB27AF0D6600EEE743 /* HTTPResponse.swift */,
 				71448DCD27AF0E2500EEE743 /* HTTPStatus.swift */,
+				71448DCF27AF0F6C00EEE743 /* HTTPResult.swift */,
+				71448DD127B03F6E00EEE743 /* HTTPBody.swift */,
 				71448DA127AF092400EEE743 /* Assets.xcassets */,
 				71448DA327AF092400EEE743 /* Preview Content */,
-				71448DCF27AF0F6C00EEE743 /* HTTPResult.swift */,
+				71448DD327B0438400EEE743 /* EmptyBody.swift */,
+				71448DD527B043F700EEE743 /* DataBody.swift */,
+				71448DD727B046C900EEE743 /* JSONBody.swift */,
+				71448DD927B0492300EEE743 /* FormBody.swift */,
 			);
 			path = httpPractice;
 			sourceTree = "<group>";
@@ -275,10 +290,15 @@
 				71448DA027AF091C00EEE743 /* ContentView.swift in Sources */,
 				71448DCA27AF0BDE00EEE743 /* HTTPRequest.swift in Sources */,
 				71448DCC27AF0D6600EEE743 /* HTTPResponse.swift in Sources */,
+				71448DD627B043F700EEE743 /* DataBody.swift in Sources */,
+				71448DD827B046C900EEE743 /* JSONBody.swift in Sources */,
+				71448DD427B0438400EEE743 /* EmptyBody.swift in Sources */,
 				71448DC827AF09BB00EEE743 /* HTTPMethod.swift in Sources */,
 				71448DD027AF0F6C00EEE743 /* HTTPResult.swift in Sources */,
 				71448D9E27AF091C00EEE743 /* httpPracticeApp.swift in Sources */,
 				71448DCE27AF0E2500EEE743 /* HTTPStatus.swift in Sources */,
+				71448DD227B03F6E00EEE743 /* HTTPBody.swift in Sources */,
+				71448DDA27B0492300EEE743 /* FormBody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

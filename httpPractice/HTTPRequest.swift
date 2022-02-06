@@ -11,7 +11,7 @@ public struct HTTPRequest {
     private var urlComponents = URLComponents()
     public var method: HTTPMethod = .get // as defined on HTTPMethod
     public var headers: [String: String] = [:]
-    public var body: Data?
+    public var body: HTTPBody = EmptyBody()
     
     public init() {
         urlComponents.scheme = "https"
