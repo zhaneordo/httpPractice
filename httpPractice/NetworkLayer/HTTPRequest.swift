@@ -30,4 +30,8 @@ public extension HTTPRequest {
         get { urlComponents.path }
         set { urlComponents.path = newValue }
     }
+    
+    var url: URL? {
+        get { return urlComponents.url }
+    }
 }
